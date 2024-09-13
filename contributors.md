@@ -76,20 +76,27 @@
         </a>
     </td>
     <td align="center">
+        <a href="https://github.com/MastanSayyad">
+            <img src="https://avatars.githubusercontent.com/u/101971980?v=4" width="100;" alt="MastanSayyad"/>
+            <br />
+            <sub><b>Mastan Sayyad</b></sub>
+        </a>
+    </td>
+    <td align="center">
         <a href="https://github.com/Anubhavdevv">
             <img src="https://avatars.githubusercontent.com/u/72249059?v=4" width="100;" alt="Anubhavdevv"/>
             <br />
             <sub><b>Anubhav</b></sub>
         </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/GaganpreetKaurKalsi">
-            <img src="https://avatars.githubusercontent.com/u/54144759?v=4" width="100;" alt="GaganpreetKaurKalsi"/>
-            <br />
-            <sub><b>Gaganpreet Kaur Kalsi</b></sub>
-        </a>
     </td></tr>
 <tr>
+    <td align="center">
+        <a href="https://github.com/kartikmehta18">
+            <img src="https://avatars.githubusercontent.com/u/125860170?v=4" width="100;" alt="kartikmehta18"/>
+            <br />
+            <sub><b>Kartik Mehta</b></sub>
+        </a>
+    </td>
     <td align="center">
         <a href="https://github.com/Saviour1001">
             <img src="https://avatars.githubusercontent.com/u/71517788?v=4" width="100;" alt="Saviour1001"/>
@@ -98,10 +105,10 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/kartikmehta18">
-            <img src="https://avatars.githubusercontent.com/u/125860170?v=4" width="100;" alt="kartikmehta18"/>
+        <a href="https://github.com/GaganpreetKaurKalsi">
+            <img src="https://avatars.githubusercontent.com/u/54144759?v=4" width="100;" alt="GaganpreetKaurKalsi"/>
             <br />
-            <sub><b>Kartik Mehta</b></sub>
+            <sub><b>Gaganpreet Kaur Kalsi</b></sub>
         </a>
     </td>
     <td align="center">
@@ -119,13 +126,6 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/MastanSayyad">
-            <img src="https://avatars.githubusercontent.com/u/101971980?v=4" width="100;" alt="MastanSayyad"/>
-            <br />
-            <sub><b>Mastan Sayyad</b></sub>
-        </a>
-    </td>
-    <td align="center">
         <a href="https://github.com/khAja13">
             <img src="https://avatars.githubusercontent.com/u/50286911?v=4" width="100;" alt="khAja13"/>
             <br />
@@ -134,17 +134,10 @@
     </td></tr>
 <tr>
     <td align="center">
-        <a href="https://github.com/HemantKr071">
-            <img src="https://avatars.githubusercontent.com/u/115487745?v=4" width="100;" alt="HemantKr071"/>
+        <a href="https://github.com/partha120804">
+            <img src="https://avatars.githubusercontent.com/u/138643473?v=4" width="100;" alt="partha120804"/>
             <br />
-            <sub><b>Hemant Kumar</b></sub>
-        </a>
-    </td>
-    <td align="center">
-        <a href="https://github.com/devXprite">
-            <img src="https://avatars.githubusercontent.com/u/80192140?v=4" width="100;" alt="devXprite"/>
-            <br />
-            <sub><b>Prateek</b></sub>
+            <sub><b>Partha120804</b></sub>
         </a>
     </td>
     <td align="center">
@@ -155,10 +148,17 @@
         </a>
     </td>
     <td align="center">
-        <a href="https://github.com/partha120804">
-            <img src="https://avatars.githubusercontent.com/u/138643473?v=4" width="100;" alt="partha120804"/>
+        <a href="https://github.com/devXprite">
+            <img src="https://avatars.githubusercontent.com/u/80192140?v=4" width="100;" alt="devXprite"/>
             <br />
-            <sub><b>Partha120804</b></sub>
+            <sub><b>Prateek</b></sub>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/HemantKr071">
+            <img src="https://avatars.githubusercontent.com/u/115487745?v=4" width="100;" alt="HemantKr071"/>
+            <br />
+            <sub><b>Hemant Kumar</b></sub>
         </a>
     </td>
     <td align="center">
