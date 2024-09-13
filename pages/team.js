@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 import { Box, Skeleton, SkeletonCircle, Spacer } from "@chakra-ui/react";
 import Head from "next/head";
 
@@ -14,7 +15,7 @@ const Team = () => {
   useEffect(() => {
     var customQuery = window.location.href.split("#")[1]; // Direct link to /team#20XX
     // Note - Only change 2022 with current year of GSSoC
-    customQuery ? getUsers(customQuery) : getUsers("2024");
+    customQuery ? getUsers(customQuery) : getUsers("2024Extd");
   }, []);
 
   return (
@@ -30,21 +31,29 @@ const Team = () => {
         /> */}
       </Head>
       <div className="items-center justify-center">
-        <p className="font-sans text-center text-2xl font-extrabold text-black-100">
-          <p className="text-primary_orange-0 dark:text-white font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10 underline decoration-orange-500  underline-offset-8">
+        <div className="font-sans text-center text-2xl font-extrabold text-black-100">
+          <div className="text-primary_orange-0 dark:text-white font-sans text-3xl md:text-5xl text center font-extrabold flex wrap justify-center flex-col md:flex-row mb-10 underline decoration-orange-500  underline-offset-8">
             <h1 className="text-primary_orange-0">Meet the&nbsp;</h1>
             <h1>Team </h1>
-          </p>
+          </div>
           <p className=" text-primary_orange-0">
-            2024 Team is here to make your journey memorable!
+            2024 Extended GSSoC Team is here to make your journey memorable!
           </p>
-        </p>
+        </div>
       </div>
       <Spacer mt={10} />
       <div className="flex flex-row justify-center flex-wrap items-center gap-5">
       <a>
           <button
-            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 rounded md:text-2xl md:py-6"
+            onClick={() => getUsers("2024Extd")}
+          >
+            2024-Extd
+          </button>
+        </a>
+      <a>
+          <button
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 rounded md:py-4 md:text-2xl md:py-6"
             onClick={() => getUsers(2024)}
           >
             2024
@@ -52,7 +61,7 @@ const Team = () => {
         </a>
         <a>
           <button
-            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 rounded md:py-4 md:text-2xl md:py-6"
             onClick={() => getUsers(2023)}
           >
             2023
@@ -60,7 +69,7 @@ const Team = () => {
         </a>
         <a>
           <button
-            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 md:py-4 rounded md:text-2xl md:py-6"
             onClick={() => getUsers(2022)}
           >
             2022
@@ -68,7 +77,7 @@ const Team = () => {
         </a>
         <a>
           <button
-            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 md:py-4 rounded md:text-2xl md:py-6"
             onClick={() => getUsers(2021)}
           >
             2021
@@ -76,7 +85,7 @@ const Team = () => {
         </a>
         <a>
           <button
-            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 md:py-4 rounded md:text-2xl md:py-6"
             onClick={() => getUsers(2020)}
           >
             2020
@@ -84,7 +93,7 @@ const Team = () => {
         </a>
         <a>
           <button
-            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md text-white font-bold px-10 py-3 rounded md:text-2xl md:py-4 rounded md:text-2xl md:py-6"
+            className="bg-gradient-to-b from-primary_orange-0 to-orange-600 text-lg text-white dark:text-black font-medium hover:bg-gradient-to-t hover:from-primary_orange-0 hover:to-orange-600 text-md px-10 py-3 md:py-4 rounded md:text-2xl md:py-6"
             onClick={() => getUsers(2019)}
           >
             2019
@@ -116,12 +125,15 @@ const Team = () => {
               ) : (
                 <div className="flex items-center justify-center w-80" key={i}>
                   <div className="p-3 shadow bg-primary_orange-0 rounded-xl w-full md:h-fit">
-                    <div className="h-max rounded-lg shadow-lg md:h-96 relative bottom-7 hover:-translate-y-4 duration-300 hover:cursor-pointer">
+                    <div className="h-max rounded-lg shadow-lg md:h-96 relative bottom-7 hover:-translate-y-4 duration-300 hover:cursor-pointer" 
+                         title={`Visit ${curElem["Name"]}'s Profile`}>
+                      <Link href={`/teamprofile?name=${curElem["Name"].replace(/\s+/g, '')}`}>
                       <img
                         src={curElem.Image}
                         alt="Team Member Photo"
                         className="object-cover object-center w-full h-full"
                       />
+                      </Link>
                     </div>
 
                     <div className="flex flex-col items-center justify-center">
@@ -160,13 +172,9 @@ const Team = () => {
                               rel="noreferrer"
                               href={curElem["Twitter"]}
                             >
-                              <svg
-                                className="w-6 h-6 text-black fill-current"
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                              >
-                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
-                              </svg>
+                              <img 
+                              className="w-6 h-6 text-black fill-current"
+                              src="twitter.svg" alt="Twitter" />
                             </a>
                           )}
                           {curElem["LinkedIn"] == "" ? (

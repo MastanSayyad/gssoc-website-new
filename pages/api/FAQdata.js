@@ -2,143 +2,138 @@ export const accordionData = [
   {
     id: 1,
     question:
-      "Will a beginner, with absolutely no knowledge of github, gain anything fruitful?",
+      "What is GSSoC '24 Extended?",
     answer:
-      "Yeah, definitely. The organization is meant to assist the beginners grow in the field of development. We'll have distinct projects appropriate both for beginners as well as the accolades and thereby we'll make sure that each and every participant gets to learn something new from the projects he or she is contributing for. ",
+      "GSSoC '24 Extended is a month long open-source event that follows the main GSSoC '24 program. Participants contribute to numerous projects under the extreme guidance of skilled mentors over these 30 days.",
   },
   {
     id: 2,
-    question: "Is there any registration fee?",
+    question: "Who can participate in GSSoC '24 Extended?",
     answer:
-      "No, there is no registration fees for participation. It is absolutely free of cost. ",
+      "Anyone interested in open source, regardless of their experience level can participate. Whether you are a newcomer or have previous experience, you are welcome to join and contribute. ",
   },
   {
     id: 3,
-    question: "Any age limit for participation?",
+    question: "How is GSSoC '24 Extended different from GSSoC ’24?",
     answer:
-      "No, there is no age limit for participation in GSSoC. It is open for all. ",
+      "With the overwhelming response we received for GSSoC’24, we have extended it into a one-month program but our mission remains to help students begin to contribute to real-world projects from the comfort of their homes. ",
   },
   {
     id: 4,
-    question: "How will we receive the prizes (if won) and certificate?",
+    question: "I have absolutely no knowledge of GitHub. Will I gain anything fruitful?",
     answer:
-      "We'll be providing all the participants with the digital certificate. The prize money to all the concerned students will be sent to their bank accounts. We'll ask for the bank account details via an email after the conclusion of the event. ",
+      "Yes, definitely. The organisation is meant to assist the beginners grow in the field of development. We'll have distinct projects appropriate both for beginners as well as the accolades. Beginners will receive extensive support, including access to learning resources, tutorials, and guidance from mentors. The program is designed to be beginner-friendly, ensuring that participants with no prior experience in open source can still make meaningful contributions. ",
   },
   {
     id: 5,
-    question: "By what time will the result come?",
-    answer: "The results will be declared in the second week of August. ",
+    question: "How can I register for GSSoC '24 Extended?",
+    answer: "Registration details will be announced soon. Please keep an eye on our LinkedIn page and official website for updates on the registration process. ",
   },
   {
     id: 6,
-    question: "What minimum conditions should the project satisfy?",
-    answer:
-      "There are no such conditions that the projects need to satisfy. The mentors can propose the idea in any field that they specifically expertise in. ",
+    question: "Is there any registration fee?",
+    answer: "No, there is no registration fees for participation. This program is absolutely free of cost. ",
   },
   {
     id: 7,
-    question: "Is it strictly for girls or can boys also participate?",
-    answer:
-      "GirlScript aims to assist anyone who is new in the field of development and it specifically supports an inclusive environment. Thereby GSSoC is open both for girls and for boys. Everyone can participate and contribute their part in the development of open source community and our initiative. ",
+    question: "What are the benefits of participating in GSSoC '24 Extended?",
+    answer: "Participants will have the opportunity to work on real-world open-source projects, gain valuable experience, enhance their skills, and become part of a global community of open-source contributors. Additionally, participants receive digital certificates and may be eligible for prizes.",
   },
   {
     id: 8,
-    question:
-      "Where do we start as a beginner to contribute properly in the projects?",
-    answer:
-      "We'll be providing you with the links on our official website to start with Github and various other development to make sure that everyone is able to aptly contribute for the projects. ",
+    question: "How will I get the prizes (if won) and certificate?",
+    answer: "Digital certificates will be provided to all the participants. The prize money to all the concerned students will be sent to their bank accounts. We'll ask for the bank account details via an email after the conclusion of the event.",
   },
   {
     id: 9,
-    question: "How will participants communicate with mentors and admins?",
-    answer:
-      "All communication will happen on the corresponding channel for the particular project in the official GSSoC '22 Discord server. ",
+    question: "How can I become a Campus Ambassador for GSSoC '24 Extended?",
+    answer: "Registrations for Campus Ambassadors will open soon. Stay tuned to our LinkedIn page and website for the announcement and application process.",
   },
   {
     id: 10,
-    question: "How will I know that I am selected?",
-    answer:
-      "The participants will be notified through email and the invite to the Discord server will be sent to them. ",
+    question: "I was a contributor/mentor/PA in GSSoC’24. Can I change my role in this program?",
+    answer: "Yes, this is a completely new program and you can register for any role as per your wish. So even if you were a contributor in GSSoC’24, you can be a mentor or project admin this time!",
   },
   {
     id: 11,
-    question: "What is the criterion for selection as a participant?",
+    question: "What types of challenges will be available during GSSoC '24 Extended?",
     answer:
-      "This program is for beginners to get started with open source. The only criterion for selection are your dedication and enthusiasm to contribute to open source. ",
+      "The challenges will include a variety of tasks related to different open-source projects. These may range from bug fixes and feature development to documentation and more. GSSoC includes a wide variety of projects across different domains such as web development, mobile app development, machine learning, data science, and more. ",
   },
   {
     id: 12,
-    question: "Is GSSoC exclusively for girls or can boys participate as well?",
+    question: "Will there be any mentorship available during GSSoC '24 Extended?",
     answer:
-      "GirlScript aims to support anyone new to the development field and promotes inclusivity. GSSoC is open for all. Everyone is welcome to participate and contribute to the open-source community and our initiative.",
+      "Yes, participants will have access to mentors who can provide guidance and support throughout the event. More details about the mentorship program will be shared soon. ",
   },
   {
     id: 13,
-    question: "Want to learn GitHub? Start here!",
-    answer: `If you want to learn GitHub independently, you can start by referring to the official documentation available at: https://guides.github.com/introduction/flow/. Additionally, there are step-by-step tutorials available that provide a comprehensive understanding of how GitHub works.`,
+    question: "How do I find projects to work on during GSSoC '24 Extended?",
+    answer: "Projects and challenges will be listed on our official website. You can browse through these to find projects that align with your interests and skills.",
   },
   {
     id: 14,
-    question: "What is the role of a mentor and how do they assist?",
-    answer: `A mentor is an experienced individual who helps you navigate and solve any challenges you encounter during your contribution journey in GSSoC. 
-        They provide guidance, support, and expertise to ensure you have a fulfilling learning experience.`,
+    question:
+      "Can I participate if I am not currently affiliated with an educational institution?",
+    answer:
+      "Yes, GSSoC '24 Extended is open to individuals from all backgrounds, including those not currently affiliated with any educational institution. ",
   },
   {
     id: 15,
-    question: "Can I contribute to multiple projects?",
-    answer: `Yes, you can contribute to multiple projects. However, we recommend that you focus on one project at a time to ensure you have a fulfilling learning experience.`,
+    question: "Is there any age limit for participation and Can international students participate?",
+    answer:
+      "No, there is no age limit for participation in GSSoC’24 Extended. It is open for all and Yes, international can also participate. GSSoC is open to participants from around the world. There are no geographical restrictions for joining the program. ",
   },
   {
     id: 16,
-    question: "Are projects assigned to us or can we freely choose?",
-    answer: `You can freely choose the project you want to contribute to here - https://gssoc.girlscript.tech/project.`,
+    question: "How will I be recognised for my contributions?",
+    answer:
+      "Participants will receive certificates and badges for their contributions. Exceptional contributors may also be recognised on our website and social media channels. ",
   },
   {
     id: 17,
-    question: `Where can I find projects eligible for GSSoC'23?`,
-    answer: `You can find the list of projects eligible for GSSoC'23 here - https://gssoc.girlscript.tech/project.`,
+    question: "How can organisations or projects get involved with GSSoC’24 Extended?",
+    answer:
+      "Organisations or project maintainers interested in participating in GSSoC’24 Extended can apply to have their projects included in the program. There are no such conditions that the projects need to satisfy for open source contributions. ",
   },
   {
     id: 18,
-    question: `What are Discord roles?`,
-    answer: `Discord roles are assigned to participants based on their involvement in GSSoC. If you are a contributor, you are required to add "| Contributor" to your name, and similar guidelines apply to other roles. These roles help facilitate communication and collaboration within the community. The specific rules regarding Discord roles are clearly outlined in the Discord channel. If you have multiple roles, such as being both a contributor and a mentor, prioritize the role that holds greater significance for you.`,
+    question: "Is this program only for girls or can boys also participate?",
+    answer: "GirlScript aims to assist anyone who is new in the field of development and it specifically supports an inclusive environment. Thereby GSSoC is open both for girls and for boys. Everyone can participate and contribute their part in the development of open source community and our initiative.",
   },
   {
     id: 19,
-    question: `What should I do after completing GSSoC?`,
-    answer: `Congratulations on successfully finishing GSSoC! Give yourself a pat on the back, as it is an incredible achievement. Be proud of yourself! 
-        Now, as you continue your open-source journey, you have various options. You can contribute to larger projects on GitHub, collaborate with other developers, or even create your own projects to address specific problems. The possibilities are endless, and this is just the beginning of your exciting journey in the world of open source.`,
+    question: "Will there be any workshops or events during GSSoC '24 Extended?",
+    answer: "Yes, there will be workshops, webinars, and other events designed to help participants learn and grow. Details about these events will be provided on our official channels.",
   },
   {
     id: 20,
-    question: `Is your question not listed here?`,
-    answer: `If you cannot find the answer to your question in the FAQ section, please reach out to us via email, and we will respond as soon as possible. You can email us at gssoc@girlscript.tech. Additionally, you can also ask your question in the official GSSoC Discord channel, in the respective channel dedicated to discussions and queries.`,
+    question: "How will participants communicate with mentors and admins?",
+    answer: "All communication will happen on the corresponding channel for the particular project in the official GSSoC ’24 Extended Discord server.",
   },
   {
     id: 21,
-    question: `Can I be a contributor to projects too if I am a core team member?`,
-    answer: `Yes, you can be a contributor as well.`,
+    question: "How will I know that I am selected?",
+    answer: "The participants will be notified through email and the invite to the Discord server will be sent to them.",
   },
   {
     id: 22,
-    question: `Can we switch our roles after getting onboarded?`,
-    answer: `Sadly, No. You can't switch. If there is a requirement and your skillset matches, we may ask you to contribute to different teams.`,
+    question: "Where can I get updates about GSSoC '24 Extended?",
+    answer: "Updates will be posted on our LinkedIn page and official website. Make sure to follow these channels to stay informed about the latest news and announcements.",
   },
   {
     id: 23,
-    question: `How can the core members contribute to GSSoC's program?`,
-    answer: `The roadmap has been shared above, can look into it. PMs will be in touch with you regarding the tasks.`,
+    question: "Can we switch our roles after getting onboarded?",
+    answer: "Sadly, No. You can't switch. If there is a requirement and your skillset matches, we may ask you to contribute to different teams.",
   },
   {
     id: 24,
-    question: `If we want to add something in GitHub org as our suggestion, do we need to raise a PR?`,
-    answer: `Yes, ideally that's the right way if you want to learn how things work refer https://recodehive.com/github-tutorials/`,
+    question: `What are the other programs provided by Girlscript?`,
+    answer: `GirlScript organises several other programs including the GirlScript Winter of Contributing (GWOC), GirlScript Winter of Blockchain (WoB), Web3Conf and various other initiatives aimed at promoting tech education and open source contributions.`,
   },
   {
     id: 25,
-    question:
-      "Registration form asks for a referral code. What should I fill in if I don't have one?",
-    answer:
-      "Referral codes are optional, it's the campus ambassador who passes on the referral codes. You can go ahead; this doesn't affect your application.",
+    question: `How can I contact the GSSoC team for further questions?`,
+    answer: `You can reach out to us via the contact form on our official website or through our social media channels. You can email us at gssoc@girlscript.tech. Additionally, you can also ask your question in the official GSSoC’24 Extended Discord channel, in the respective channel dedicated to discussions and queries We’re here to help!`,
   },
 ];

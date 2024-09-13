@@ -16,7 +16,7 @@ With constant efforts, participants contribute to numerous projects under the ex
 [gssoc-website.webm](https://user-images.githubusercontent.com/63473496/213291499-67c96070-0a8a-4fd7-986d-e72b226a6be6.webm)
 
 ## Setting Up the Development Environment
-First, install the node modules & dependencies:
+First, install the node modules & dependencies:  
 
 ```bash
 npm i

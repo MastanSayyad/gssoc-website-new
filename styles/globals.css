@@ -99,12 +99,22 @@ html {
   transition: ease-in-out 1s;
   margin-left: -1px;
   margin-right: 10px;
-  
 }
 #CTA-button:hover {
   /* transform: scale(1.2, 1.2); */
   transform: scale(1.1, 1.1);
   box-shadow: 0px 0px 20px #ff7a19;
+}
+
+#CTA-button-wob {
+  transition: ease-in-out 1s;
+  margin-left: -1px;
+  margin-right: 10px;
+}
+#CTA-button-wob:hover {
+  /* transform: scale(1.2, 1.2); */
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 20px #85C6DC;
 }
 
 #CTA-button1 {
@@ -292,12 +302,13 @@ html {
 
 .pagination {
   display: flex;
-  justify-content: flex-end;
-  margin-top: 10px;
+  justify-content: center;
+  /* margin-top: 10px; */
   width: fit-content;
   width: -moz-fit-content;
-  position: absolute;
-  right: 0;
+  /* position: absolute; */
+  /* right: 0; */
+  margin-left: 25px;
   background-color: #f3f4f6;
   padding: 5px;
   border-radius: 100px;
@@ -339,6 +350,12 @@ html {
   align-self: center;
   justify-content: center;
   transition: all 0.5s ease-in-out 0s;
+}
+
+.clip-sharp-rotated {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%, 100% 0); /* Sharp right-angled triangle */
+  transform: rotate(45deg); /* Rotate to align with the right border */
+  transform-origin: top right; /* Anchor rotation to the top-right corner */
 }
 
 /* media queries for the date part of chrono */
@@ -521,46 +538,72 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
   /* background-size: cover; */
-  width: 1000px;
-  height: 707px;
+  width: 975px;
+  height: 688px;
+  position: relative;
 }
 
 .cert-contrib {
-  background: url(/GSSoC_Contrib_Cert.png) no-repeat;
   background-size: contain;
 }
 .cert-topcontrib {
-  background: url(/GSSoC_TopContrib_Cert.png) no-repeat;
   background-size: contain;
 }
 .cert-mentor {
-  background: url(/GSSoC_Mentor_Cert.png) no-repeat;
   background-size: contain;
 }
 .cert-pa {
-  background: url(/GSSoC_PA_Cert.png) no-repeat;
   background-size: contain;
 }
 .cert-ca {
-  background: url(/GSSoC_CA_Cert.png) no-repeat;
   background-size: contain;
 }
 .cert-speaker {
-  background: url(/GSSoC_OSAdvocate_Cert.png) no-repeat;
   background-size: contain;
 }
 .cert-orgteam {
-  background: url(/GSSoC_Organiser_Cert.png) no-repeat;
   background-size: contain;
 }
 
-.contrib_name {
+.contrib_name_2024 {
   position: absolute;
-  top: 44%;
-  left: 64%;
+  top: 45%;
+  left: 63%;
+  text-align: center;
+  width: 60%;
   transform: translate(-50%, -50%);
 }
 
+.cert_id_2024 {
+  position: absolute;
+  bottom: 3%;
+  left: 42%;
+  text-align: center;
+  width: 60%;
+  transform: translate(-50%, -50%);
+}
+
+.issue_2024 {
+  position: absolute;
+  bottom: 3%;
+  right: -37%;
+  text-align: center;
+  width: 60%;
+  transform: translate(-50%, -50%);
+}
+.contrib_name_2023 {
+  position: absolute;
+  top: 36%;
+  left: 70%;
+  text-align: center;
+  width: 60%;
+  transform: translate(-50%, -50%);
+}
+.export-mode .contrib_name {
+  top: 30.5%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
 .text-big-orange {
   font-size: 30px;
   font-weight: bold;
@@ -633,10 +676,21 @@ html {
   }
 }
 @media only screen and (max-width: 1080px) {
-  .contrib_name,
-  .banner,
+  .banner{
+    display: block;
+    background-size:contain;
+    width: 998px;
+    position: absolute;
+    height: 704px;
+  }
+  .contrib_name{
+    top:250px;
+    left:790px;
+    width:400px;
+    transform: translate(-50%, -50%);
+  }
   .text-big-orange {
-    display: none;
+    font-size: 35px;
   }
   #no-mobile-alert {
     display: block;

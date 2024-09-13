@@ -15,10 +15,10 @@ const Cert = () => {
   const [Name, setName] = useState("");
   const [Role, setRole] = useState("Contributor");
   const [verified, setVerified] = useState(false);
+  const [year, setYear] = useState("2024");
 
   const setVerifiedTrue = () => {
     setVerified(true);
-    console.log("verified");
   }
   // () => {
   //   var image_url = "https://res.cloudinary.com/dqjtoo2h2/image/upload/co_rgb:FD7617,l_text:Playfair%20Display_80_bold_normal_left:"+Name+"/fl_layer_apply,g_center,x_0.2,y_-0.12/GSSoC2022_Cert_nf09fu.png"
@@ -67,13 +67,13 @@ const Cert = () => {
         </div>
       </div>
       <Spacer mt={20} />
-      <div className="flex flex-col bg-white shadow-2xl dark:bg-black rounded-md mx-2 sm:mx-10 md:mx-10 lg:mx-20 px-10 py-2">
+      <div className="flex flex-col bg-white shadow-2xl dark:bg-black mb-10 rounded-md mx-2 sm:mx-10 md:mx-10 lg:mx-20 px-10 py-2">
         <label className="text-black dark:text-primary_orange-0 font-semibold mt-3 text-lg">
           Enter Registered Email*
         </label>
         <input
           type="text"
-          className="text-primary_orange-0 dark:text-white font-semibold mt-2 text-xs sm:text-sm md:text-lg"
+          className="text-primary_orange-0 dark:text-white dark:border-slate-200 border-black border-2 rounded-md font-semibold mt-2 text-xs sm:text-sm md:text-lg"
           onChange={(e) => setEmail(e.target.value)}
           disabled={verified}
         ></input>
@@ -82,13 +82,25 @@ const Cert = () => {
         </label>
         <input
           type="text"
-          className="text-primary_orange-0 dark:text-white font-semibold mt-2 text-xs sm:text-sm md:text-lg"
+          className="text-primary_orange-0 dark:text-white dark:border-slate-200 border-black border-2 rounded-md font-semibold mt-2 text-xs sm:text-sm md:text-lg"
           value={Name}
           onChange={(e) => setName(e.target.value)}
           disabled={verified}
         ></input>
         <label className="text-black dark:text-primary_orange-0 font-semibold mt-3 text-lg">
-          Select Role in GSSoC 2023
+          Select Year of Participation in GSSoC
+        </label>
+        <select
+          className="text-primary_orange-0 dark:text-white font-semibold mt-2 text-xs sm:text-sm md:text-lg"
+          defaultValue="2024"
+          onChange={(e) => setYear(e.target.value)}
+          disabled={verified}
+        >
+          <option value="2024">2024</option>
+          <option value="2023">2023</option>
+        </select>
+        <label className="text-black dark:text-primary_orange-0 font-semibold mt-3 text-lg">
+          {`Select Role in GSSoC ${year}`}
         </label>
         <select
           className="text-primary_orange-0 dark:text-white font-semibold mt-2 text-xs sm:text-sm md:text-lg"
@@ -110,7 +122,7 @@ const Cert = () => {
           className="w-full h-auto mt-4"
           id="canvas"
         /> */}
-        <Certi_Comp Name={Name} Role={Role} Email={Email} verified={verified} setVerified={setVerifiedTrue} />
+        <Certi_Comp Name={Name} Role={Role} Email={Email} verified={verified} setVerified={setVerifiedTrue} year={year} />
       </div>
     </>
   );

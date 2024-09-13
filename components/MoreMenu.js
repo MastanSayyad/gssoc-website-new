@@ -4,15 +4,19 @@ import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
 
+
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 const MoreMenu = ({ handleClick }) => {
+  
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="lg:inline-flex lg:w-auto w-full py-2 text-center rounded text-grey-800 text-1xl font-medium hover:text-primary_orange-0 dark:hover:text-primary_orange-0 hover:text-lg transition-all link link-underline link-underline-black">
+        <Menu.Button
+          className={`lg:inline-flex lg:w-auto w-full py-2 text-center rounded text-grey-800 text-1xl font-medium hover:text-primary_orange-0 dark:hover:text-primary_orange-0"} hover:text-lg transition-all link link-underline link-underline-black`}
+        >
           MORE
           <ChevronDownIcon
             className="-mr-1 mt-1 ml-2 h-10 w-10 hover:motion-safe:animate-ping"
@@ -32,15 +36,15 @@ const MoreMenu = ({ handleClick }) => {
       >
         <Menu.Items className="origin-top-right absolute -right-5 mt-2 w-56 rounded-md shadow-lg dark:bg-black ring-1 bg-white ring-black ring-opacity-5 focus:outline-none">
           <div className="py-1">
-            <Link href="/codeofconduct">
+            <Link href={"/codeofconduct"}>
               <Menu.Item>
                 {({ active }) => (
                   <a
-                  onClick={handleClick}
+                    onClick={handleClick}
                     className={classNames(
                       active
-                        ? "hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white"
-                        : "hover:text-primary_orange-0 dark:text-white",
+                        ? `hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white`
+                        : `hover:text-primary_orange-0 dark:text-white`,
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                   >
@@ -49,31 +53,31 @@ const MoreMenu = ({ handleClick }) => {
                 )}
               </Menu.Item>
             </Link>
-            <Link href="/info">
+            <Link href={"/info"}>
               <Menu.Item>
                 {({ active }) => (
                   <a
-                  onClick={handleClick}
+                    onClick={handleClick}
                     className={classNames(
                       active
-                        ? "hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white"
-                        : "hover:text-primary_orange-0 dark:text-white",
+                        ? `hover:text-primary_orange-0 dark:hover:text-primary_orange-0"} dark:text-white`
+                        : `hover:text-primary_orange-0"} dark:text-white`,
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                   >
-                    HOW GSSOC WORKS ?
+                    {"HOW GSSOC WORKS ?"}
                   </a>
                 )}
               </Menu.Item>
             </Link>
-            <Link href="/event">
+            <Link href={"/event"}>
               <Menu.Item>
                 {({ active }) => (
                   <a
                     className={classNames(
                       active
-                        ? "hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white"
-                        : "hover:text-primary_orange-0 dark:text-white",
+                        ? `hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white`
+                        : `hover:text-primary_orange-0 dark:text-white`,
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                     onClick={handleClick}
@@ -83,36 +87,36 @@ const MoreMenu = ({ handleClick }) => {
                 )}
               </Menu.Item>
             </Link>
-            {/* <Link href="/campus_ambassador">
+            <Link href={"/verify_cert"}>
               <Menu.Item>
                 {({ active }) => (
                   <a
                     className={classNames(
                       active
-                        ? "hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white"
-                        : "hover:text-primary_orange-0 dark:text-white",
-                      "block px-4 py-2 text-sm cursor-pointer"
-                    )}
-                  >
-                    CAMPUS AMBASSADORS
-                  </a>
-                )}
-              </Menu.Item>
-            </Link> */}
-            {/* <Link href="verify_cert"> */}
-            <Link href="/verify_cert">
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    className={classNames(
-                      active
-                        ? "hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white"
-                        : "hover:text-primary_orange-0 dark:text-white",
+                        ? `hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white`
+                        : `hover:text-primary_orange-0 dark:text-white`,
                       "block px-4 py-2 text-sm cursor-pointer"
                     )}
                     onClick={handleClick}
                   >
                     VERIFY CERTIFICATIONS
+                  </a>
+                )}
+              </Menu.Item>
+            </Link>
+            <Link href={"/whySponsorUs"}>
+              <Menu.Item>
+                {({ active }) => (
+                  <a
+                    className={classNames(
+                      active
+                        ? `hover:text-primary_orange-0 dark:hover:text-primary_orange-0 dark:text-white`
+                        : `hover:text-primary_orange-0 dark:text-white`,
+                      "block px-4 py-2 text-sm cursor-pointer"
+                    )}
+                    onClick={handleClick}
+                  >
+                    WHY SPONSOR US ?
                   </a>
                 )}
               </Menu.Item>

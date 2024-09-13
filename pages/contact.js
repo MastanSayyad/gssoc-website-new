@@ -28,7 +28,6 @@ function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      console.log(data);
       const result = await axios.post("/api/email/send-email", data);
       if (result.error) {
         console.error(result.error);
@@ -110,7 +109,7 @@ function Contact() {
                   </div>
                 </Link>
                 <Link href="mailto:gssoc@girlscript.tech">
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 cursor-pointer">
                     <Email /> gssoc@girlscript.tech
                   </div>
                 </Link>
